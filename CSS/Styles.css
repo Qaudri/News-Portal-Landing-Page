@@ -1,19 +1,30 @@
-body{
-    max-width: 1000px;
-    margin: auto;
-    background-color: grey;
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #444444;
 }
 
-.grid_test{
-    color: white;
-}
-
-.grid_column{
+.container{
     display: grid;
-    grid-template-columns: repeat(autofit minmax(300px 1fr));
-    grid-gap: 50px;
+    margin: auto;
+    padding: 20px;
 }
 
-.image{
-    width: 200px;
+.grid-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 30px;
+    grid-column-gap: 30px;
+}
+
+.grid-row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+    grid-column-gap: 30px;
+}
+
+.col{
+    min-height: 200px;
+    background: #eeeeee;
 }
