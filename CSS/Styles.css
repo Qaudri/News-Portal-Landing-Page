@@ -1,0 +1,19 @@
+body{
+    max-width: 1000px;
+    margin: auto;
+    background-color: grey;
+}
+
+.grid_test{
+    color: white;
+}
+
+.grid_column{
+    display: grid;
+    grid-template-columns: repeat(autofit minmax(300px 1fr));
+    grid-gap: 50px;
+}
+
+.image{
+    width: 200px;
+}
