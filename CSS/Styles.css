@@ -1,6 +1,7 @@
 body {
     padding: 0px;
     font-family: poppins;
+    margin: 0px;
 }
 
 .top-header{
@@ -218,6 +219,932 @@ body {
     display: block;
 }
 
+.input-area{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px;
+    align-items: center;
+}
+
+.input-bar{
+    width: 100%;
+    padding: 0px;
+    margin: 30px 0px;
+    display: flex;
+    min-height: 30px;
+}
+
+.breaking-news{
+    margin: 12px 0px 0px 0px;
+    padding: 0px;
+}
+
+.breaking-news a{
+    background-color: #222222;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    border-radius: 0px;
+    outline: none;
+}
+
+.breaking-news a:hover{
+    border: 1px solid #222222;
+    color: #222222;
+    background-color: transparent;
+    border-radius: 0px;
+    outline: none;
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #222222;
+    padding: 5px;
+    align-items: center;
+    width: 845px;
+    margin-top: 1px;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content a{
+    background-color: #008080;
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px 0px 0px;
+    padding: 5px 10px;
+
+}
+
+.content a:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: teal;
+    border: 1px solid teal;
+}
+
+.input p{
+    padding: 05px 10px;
+    margin: 0px;
+}
+
+.arrows{
+    display: flex;
+}
+
+.arrows img{
+    width: 20px;
+    padding: 0px 10px 0px 0px;
+    margin: 0px;
+}
+
+
+.main-section{
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    width: 100%;
+}
+
+.left-section{
+    /* width: 40%; */
+    max-height: 190px;
+    background: linear-gradient(transparent, transparent, rgb(65, 65, 65)), url(../Images/gadget.jpg);
+    background-size: cover;
+    padding: 20px;
+    object-fit: none;
+    padding-top: 267px;
+    margin: 5px 5px 5px 0px;
+}
+
+.buttons{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.green a{
+    background-color: teal;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.green a:hover{
+    background-color: transparent;
+    border: 2px solid teal;
+    color: white;
+    transition: .5s ease-in-out;
+    outline: none;
+}
+
+.red a{
+    background-color: #d11919;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.red a:hover{
+    transition: .5s ease-in-out;
+    background-color: transparent;
+    border: 2px solid #d11919;
+}
+
+.left-details{
+    padding: 0px;
+    margin: 0px;
+}
+
+.left-details p{
+    font-size: 1.1em;
+    color: white;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
+.left-sub{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.left-calendar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.left-calendar img{
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.left-calendar p{
+    font-size: .8em;
+    color: white;
+    font-weight: 300;
+    margin: 5px 10px;
+    padding: 0px;
+
+}
+
+.left-admin{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-admin img{
+    width: 20px;
+}
+
+.left-admin p{
+    font-size: .8em;
+    color: white;
+    font-weight: 300;
+    margin: 5px 10px;
+}
+
+
+.right-section-container{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    max-height: 75px;
+}
+
+.top-section-container{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-left-section-container{
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-left-section{
+    margin: 5px;
+    background: linear-gradient(transparent, transparent, transparent, rgb(65, 65, 65)), url(../Images/music.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* max-height: 75px; */
+    padding: 100px 10px 10px 10px;
+
+}
+
+.top-left-section-button{
+    padding: 0px;
+    margin: 0px;
+}
+
+.top-left-section-button a{
+        background-color: orange;
+        padding: 10px 15px ;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+        text-decoration: none;
+        /* margin-left: 10px; */
+}
+
+.top-left-section-button a:hover{
+    border: 2px solid orange;
+    color: white;
+    background-color: transparent;
+}
+
+.top-left-section-details{
+    padding: 0px;
+    margin: 0px;
+}
+
+.top-left-section-details p{
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    margin: 10px 0px 3px 0px;
+}
+
+.category-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.footer-calendar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.footer-calendar img{
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-calendar p{
+    font-size: .8em;
+    color: white;
+    font-weight: 300;
+    margin: 5px 0px 5px 10px;
+    padding: 0px;
+}
+
+.footer-admin{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-admin img{
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-admin p{
+    font-size: .8em;
+    color: white;
+    font-weight: 300;
+    margin: 5px 0px 5px 10px;
+    padding: 0px;
+}
+
+.top-right-section-container{
+    margin: 5px;
+    padding: 0px;
+}
+
+.top-right-section{
+    /* margin: 5px; */
+    background: linear-gradient(transparent, transparent, transparent, rgb(65, 65, 65)), url(../Images/fashion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* max-height: 100px; */
+    padding: 100px 10px 10px 10px;
+}
+
+.top-right-section-button{
+    padding: 0px;
+    margin: 0px;
+}
+
+.top-right-section-button a{
+    background-color: rgb(255, 0, 128);
+    padding: 10px 15px ;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    /* margin-left: 10px; */
+}
+
+.top-right-section-button a:hover{
+    border: 2px solid rgb(255, 0, 128);
+    color: white;
+    background-color: transparent;
+    transition: .5s ease-in-out;
+}
+
+.top-right-section-details{
+    padding: 0px;
+    margin: 0px;
+}
+
+.top-right-section-details p{
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    margin: 10px 0px 3px 0px;
+}
+
+.category-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.footer-calendar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.footer-calendar img{
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-calendar p{
+    font-size: .8em;
+    color: white;
+    font-weight: 300;
+    margin: 5px 0px 5px 10px;
+    padding: 0px;
+}
+
+.footer-admin{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-admin img{
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-admin p{
+    font-size: .8em;
+    color: white;
+    font-weight: 300;
+    margin: 5px 0px 5px 10px;
+    padding: 0px;
+}
+
+.right-section-container{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    max-height: 75px;
+}
+
+.top-section-container{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-left-section-container{
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-left-section{
+    margin: 5px;
+    background: linear-gradient(transparent, transparent, rgb(65, 65, 65)), url(../Images/music.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* max-height: 75px; */
+    padding: 100px 10px 10px 10px;
+
+}
+
+.top-left-section-button{
+    padding: 0px;
+    margin: 0px;
+}
+
+.top-left-section-button a{
+        background-color: orange;
+        padding: 10px 15px ;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+        text-decoration: none;
+        /* margin-left: 10px; */
+}
+
+.top-left-section-button a:hover{
+    border: 2px solid orange;
+    color: white;
+    background-color: transparent;
+    transition: .5s ease-in-out;
+
+}
+
+.top-left-section-details{
+    padding: 0px;
+    margin: 0px;
+}
+
+.top-left-section-details p{
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    margin: 10px 0px 3px 0px;
+}
+
+.category-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.footer-calendar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.footer-calendar img{
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-calendar p{
+    font-size: .8em;
+    color: white;
+    font-weight: 300;
+    margin: 5px 0px 5px 10px;
+    padding: 0px;
+}
+
+.footer-admin{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-admin img{
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-admin p{
+    font-size: .8em;
+    color: white;
+    font-weight: 300;
+    margin: 5px 0px 5px 10px;
+    padding: 0px;
+}
+
+
+.right-section-container{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    max-height: 75px;
+}
+
+.top-section-container{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-left-section-container{
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-left-section{
+    margin: 5px;
+    background: linear-gradient(transparent, transparent, rgb(65, 65, 65)), url(../Images/music.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* max-height: 75px; */
+    padding: 100px 10px 10px 10px;
+
+}
+
+.top-left-section-button{
+    padding: 0px;
+    margin: 0px;
+}
+
+.top-left-section-button a{
+        background-color: orange;
+        padding: 10px 15px ;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+        text-decoration: none;
+        /* margin-left: 10px; */
+}
+
+.top-left-section-button a:hover{
+    border: 2px solid orange;
+    color: white;
+    background-color: transparent;
+    transition: .5s ease-in-out;
+
+}
+
+.top-left-section-details{
+    padding: 0px;
+    margin: 0px;
+}
+
+.top-left-section-details p{
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    margin: 10px 0px 3px 0px;
+}
+
+.category-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.footer-calendar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.footer-calendar img{
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-calendar p{
+    font-size: .8em;
+    color: white;
+    font-weight: 300;
+    margin: 5px 0px 5px 10px;
+    padding: 0px;
+}
+
+.footer-admin{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-admin img{
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-admin p{
+    font-size: .8em;
+    color: white;
+    font-weight: 300;
+    margin: 5px 0px 5px 10px;
+    padding: 0px;
+}
+
+.top-right-section-container{
+    margin: 5px;
+    padding: 0px;
+}
+
+.top-right-section{
+    /* margin: 5px; */
+    background: linear-gradient(transparent, transparent, rgb(65, 65, 65)), url(../Images/fashion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* max-height: 100px; */
+    padding: 100px 10px 10px 10px;
+}
+
+.top-right-section-button{
+    padding: 0px;
+    margin: 0px;
+}
+
+.top-right-section-button a{
+    background-color: rgb(255, 0, 128);
+    padding: 10px 15px ;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    /* margin-left: 10px; */
+}
+
+.top-right-section-button a:hover{
+    border: 2px solid rgb(255, 0, 128);
+    color: white;
+    background-color: transparent;
+    transition: .5s ease-in-out;
+
+}
+
+.top-right-section-details{
+    padding: 0px;
+    margin: 0px;
+}
+
+.top-right-section-details p{
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    margin: 10px 0px 3px 0px;
+}
+
+.category-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.footer-calendar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.footer-calendar img{
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-calendar p{
+    font-size: .8em;
+    color: white;
+    font-weight: 300;
+    margin: 5px 0px 5px 10px;
+    padding: 0px;
+}
+
+.footer-admin{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-admin img{
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-admin p{
+    font-size: .8em;
+    color: white;
+    font-weight: 300;
+    margin: 5px 0px 5px 10px;
+    padding: 0px;
+}
+
+
+
+
+.bottom-section-container{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-left-section-container{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bottom-left-section{
+    margin: 5px;
+    background: linear-gradient(transparent, transparent, rgb(65, 65, 65)), url(../Images/lifestyle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* max-height: 75px; */
+    padding: 100px 10px 10px 10px;
+
+}
+
+.bottom-left-section-button{
+    padding: 0px;
+    margin: 0px;
+}
+
+.bottom-left-section-button a{
+        background-color: rgb(255, 217, 0);
+        padding: 10px 15px ;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+        text-decoration: none;
+        /* margin-left: 10px; */
+}
+
+.bottom-left-section-button a:hover{
+    border: 2px solid rgb(255, 217, 0);
+    color: white;
+    background-color: transparent;
+    transition: .5s ease-in-out;
+
+}
+
+.bottom-left-section-details{
+    padding: 0px;
+    margin: 0px;
+}
+
+.bottom-left-section-details p{
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    margin: 10px 0px 3px 0px;
+}
+
+.category-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.footer-calendar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.footer-calendar img{
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-calendar p{
+    font-size: .8em;
+    color: white;
+    font-weight: 300;
+    margin: 5px 0px 5px 10px;
+    padding: 0px;
+}
+
+.footer-admin{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-admin img{
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-admin p{
+    font-size: .8em;
+    color: white;
+    font-weight: 300;
+    margin: 5px 0px 5px 10px;
+    padding: 0px;
+}
+
+.bottom-right-section-container{
+    margin: 5px;
+    padding: 0px;
+}
+
+.bottom-right-section{
+    /* margin: 5px; */
+    background: linear-gradient(transparent, transparent, rgb(65, 65, 65)), url(../Images/travel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* max-height: 100px; */
+    padding: 100px 10px 10px 10px;
+}
+
+.bottom-right-section-button{
+    padding: 0px;
+    margin: 0px;
+}
+
+.bottom-right-section-button a{
+    background-color: #a200ff;
+    padding: 10px 15px ;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    /* margin-left: 10px; */
+}
+
+.bottom-right-section-button a:hover{
+    border: 2px solid #a200ff;
+    color: white;
+    background-color: transparent;
+    transition: .5s ease-in-out;
+
+}
+
+.bottom-right-section-details{
+    padding: 0px;
+    margin: 0px;
+}
+
+.bottom-right-section-details p{
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    margin: 10px 0px 3px 0px;
+}
+
+.category-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.footer-calendar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.footer-calendar img{
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-calendar p{
+    font-size: .8em;
+    color: white;
+    font-weight: 300;
+    margin: 5px 0px 5px 10px;
+    padding: 0px;
+}
+
+.footer-admin{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-admin img{
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-admin p{
+    font-size: .8em;
+    color: white;
+    font-weight: 300;
+    margin: 5px 0px 5px 10px;
+    padding: 0px;
+}
 
 
 
@@ -234,7 +1161,12 @@ body {
 
 
 
-.container{
+
+
+
+
+
+/* .container{
     display: grid;
     margin: auto;
     padding: 20px;
@@ -257,4 +1189,4 @@ body {
 .col{
     min-height: 200px;
     background: #eeeeee;
-}
+} */
