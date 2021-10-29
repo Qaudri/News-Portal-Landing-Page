@@ -1053,15 +1053,17 @@ body {
 .bottom-right-section-container{
     margin: 5px;
     padding: 0px;
+    /* position: relative; */
 }
 
 .bottom-right-section{
     /* margin: 5px; */
-    background: linear-gradient(transparent, transparent, rgb(65, 65, 65)), url(../Images/travel.jpg);
+    background: linear-gradient(transparent, transparent, #414141), url(../Images/travel.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* max-height: 100px; */
     padding: 100px 10px 10px 10px;
+    /* position: absolute; */
 }
 
 .bottom-right-section-button{
@@ -1148,9 +1150,108 @@ body {
 
 
 
+.other-news{
+    margin: 50px 0px ;
+    padding: 0px;
+    background-color: #dddddd;
+
+}
+
+.other-news-container{
+    margin: 0px;
+    padding: 0px;
+    min-height: 120px;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.content-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    /* max-width: 100px; */
+    margin: 30px;
+    margin-left: 3px;
+}
+
+.news-content img{
+    max-height: 60px;
+    padding-right: 10px;
+    padding-top: 10px;
+
+}
+
+.text{
+    margin: 0px;
+    padding: 0px;
+}
+
+.text p{
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px 0px 5px 0px;
+}
+
+.ending-footer{
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    width: 127px;
+}
+
+.ending-calendar{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.ending-calendar img{
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 5px;
+
+}
+
+.ending-calendar p{
+    color: #909090;
+    margin: 0px;
+    font-weight: 300;
+    padding: 0px;
+
+}
+
+.ending-admin{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.ending-admin img{
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 5px;
 
 
+}
 
+.ending-admin p{
+    color: #909090;
+    margin: 0px;
+    font-weight: 300;
+    padding: 0px;
+}
 
 
 
